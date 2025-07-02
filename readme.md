@@ -1,3 +1,5 @@
+I have used ai resources for help to build the code, and i suucessfully run the the code.
+
 # JavaFX MySQL CRUD Application
 
 A desktop application built with **JavaFX** and connected to a **MySQL** database using **JDBC**. This app performs basic **CRUD operations** (Create, Read, Update, Delete) on a student database and displays data in a user-friendly TableView.
@@ -11,11 +13,10 @@ A desktop application built with **JavaFX** and connected to a **MySQL** databas
 
 ## Prerequisites
 
-- Java 8 or higher  
 - MySQL Server installed and running  
 - JavaFX SDK  
 - MySQL Connector/J (JDBC Driver)  
-- VS Code or any Java IDE
+- VS Code
 
 ## Setup Instructions
 
@@ -25,13 +26,7 @@ A desktop application built with **JavaFX** and connected to a **MySQL** databas
 4. Add the JAR to your project’s build path.
 5. Create the database:
 
-```sql
-CREATE DATABASE school;
-USE school;
 
-CREATE TABLE students (
-  id INT PRIMARY KEY AUTO_INCREMENT,
-  name VARCHAR(100),
-  email VARCHAR(100),
-  age INT
-);
+Author 
+Suman Khadayat
+
